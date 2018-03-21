@@ -25,7 +25,7 @@
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.9.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
@@ -39,19 +39,23 @@
   "files": [
     "app.js",
     "agent.js",
-    "config"
+    "config",
+    "lib"
   ],
   "ci": {
     "version": "8, 9"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-naf-amqp.git"
+    "url": "git+https://github.com/naf-suite/egg-naf-amqp.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/naf-suite/egg-naf-amqp/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-naf-amqp#readme",
+  "homepage": "https://github.com/naf-suite/egg-naf-amqp#readme",
   "author": "dyg",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
