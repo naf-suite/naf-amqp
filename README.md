@@ -34,7 +34,7 @@ $ npm i egg-naf-amqp --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.nafAmqp = {
+exports.amqp = {
   enable: true,
   package: 'egg-naf-amqp',
 };
@@ -44,7 +44,39 @@ exports.nafAmqp = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.nafAmqp = {
+exports.amqp = {
+  app: true,
+  agent: false,
+
+// Single amqp
+  // client: {
+  //   protocol: 'amqp',
+  //   hostname: 'localhost',
+  //   port: 5672,
+  //   username: 'guest',
+  //   password: 'guest',
+  //   vhost: '/',
+  // },
+
+  // Multi amqp
+  // clients: {
+  //   instance1: {
+  //     protocol: 'amqp',
+  //     hostname: 'localhost',
+  //     port: 5672,
+  //     username: 'guest',
+  //     password: 'guest',
+  //     vhost: '/',
+  //   },
+  //   instance2: {
+  //     protocol: 'amqp',
+  //     hostname: 'localhost',
+  //     port: 5672,
+  //     username: 'guest',
+  //     password: 'guest',
+  //     vhost: '/',
+  //   },
+  // },
 };
 ```
 

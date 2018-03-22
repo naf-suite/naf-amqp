@@ -1,9 +1,9 @@
 {
   "name": "egg-naf-amqp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "egg ampq plugin",
   "eggPlugin": {
-    "name": "nafAmqp"
+    "name": "amqp"
   },
   "keywords": [
     "egg",

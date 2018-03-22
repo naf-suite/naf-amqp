@@ -2,7 +2,7 @@
 
 /**
  * egg-naf-amqp default config
- * @member Config#nafAmqp
+ * @member Config#amqp
  * @property {Boolean} app - app enable
  * @property {Boolean} agent - agent enable
  * @property {Object} clent - amqp connection config
@@ -13,7 +13,7 @@
  * @property {String} password - the login password of amqp server
  * @property {String} vhost - the virtual host of amqp server
  */
-exports.nafAmqp = {
+exports.amqp = {
   default: {
     protocol: 'amqp',
     hostname: 'localhost',

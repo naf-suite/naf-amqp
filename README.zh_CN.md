@@ -47,7 +47,7 @@ egg-naf-amqp 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.nafAmqp = {
+exports.amqp = {
   enable: true,
   package: 'egg-naf-amqp',
 };

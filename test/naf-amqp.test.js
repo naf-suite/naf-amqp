@@ -17,7 +17,7 @@ describe('test/naf-amqp.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, nafAmqp')
+      .expect('hi, amqp')
       .expect(200);
   });
 });
