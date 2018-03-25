@@ -1,6 +1,6 @@
 {
   "name": "egg-naf-amqp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "egg ampq plugin",
   "eggPlugin": {
     "name": "amqp"
@@ -41,7 +41,8 @@
     "agent.js",
     "index.d.ts",
     "config",
-    "lib"
+    "lib",
+    "app"
   ],
   "ci": {
     "version": "8, 9"
