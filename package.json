@@ -1,6 +1,6 @@
 {
   "name": "egg-naf-amqp",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "egg ampq plugin",
   "eggPlugin": {
     "name": "amqp"
@@ -39,6 +39,7 @@
   "files": [
     "app.js",
     "agent.js",
+    "index.js",
     "index.d.ts",
     "config",
     "lib",
@@ -49,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naf-suite/egg-naf-amqp.git"
+    "url": "git+https://github.com/naf-suite/naf-amqp.git"
   },
   "bugs": {
-    "url": "https://github.com/naf-suite/egg-naf-amqp/issues"
+    "url": "https://github.com/naf-suite/naf-amqp/issues"
   },
-  "homepage": "https://github.com/naf-suite/egg-naf-amqp#readme",
+  "homepage": "https://github.com/naf-suite/naf-amqp#readme",
   "author": "dyg",
   "license": "MIT",
   "publishConfig": {

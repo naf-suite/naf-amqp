@@ -23,35 +23,35 @@ declare namespace Naf {
      * @param type exchange type: fanout、topic
      * @param routingKey key value
      * @param content message content
-     * @param options options for exchange
+     * @param options options for exchange,default value { durable: false }
      */
-    exchage(exchange: string, type: string, routingKey: string, content: string, options: any = { durable: false });
+    exchage(exchange: string, type: string, routingKey: string, content: string, options: object);
 
     /**
      * publish to topic exchange
      * @param exchange exchange name
      * @param routingKey key value
      * @param content message content
-     * @param options options for exchange
+     * @param options options for exchange,default value { durable: false }
      */
-    topic(exchange: string, routingKey: string, content: string, options: any = { durable: false });
+    topic(exchange: string, routingKey: string, content: string, options: object);
 
     /**
      * publish to fanout exchage
      * @param exchange exchange name
      * @param routingKey key value
      * @param content message content
-     * @param options options for exchange
+     * @param options options for exchange,default value { durable: false }
      */
-    fanout(exchange: string, routingKey: string, content: string, options: any = { durable: false });
+    fanout(exchange: string, routingKey: string, content: string, options: object);
 
     /**
      * publish to queue
      * @param name queue name
      * @param content message content
-     * @param options options for queue
+     * @param options options for queue,default value { durable: false }
      */
-    queue(name: string, content: string, options: any = { durable: false });
+    queue(name: string, content: string, options: object);
   }
 }
 
